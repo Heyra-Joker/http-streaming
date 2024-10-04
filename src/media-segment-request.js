@@ -121,7 +121,9 @@ const handleErrors = (error, request) => {
 };
 
 
-const testFunc = ()=>{}
+const testFunc = ()=>{
+  console.log("testFunc")
+}
 
 /**
  * Handle responses for key data and convert the key data to the correct format
