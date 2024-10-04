@@ -120,6 +120,9 @@ const handleErrors = (error, request) => {
   return null;
 };
 
+
+const testFunc = ()=>{}
+
 /**
  * Handle responses for key data and convert the key data to the correct format
  * for the decryption step later
@@ -131,6 +134,7 @@ const handleErrors = (error, request) => {
  *                                        this request
  */
 const handleKeyResponse = (segment, objects, finishProcessingFn, triggerSegmentEventFn) => (error, request) => {
+  testFunc()
   const response = request.response;
   const errorObj = handleErrors(error, request);
 
